@@ -78,7 +78,8 @@ To further improve the model performance and reduce variability:
 
 ### k-Fold Cross-Validation  
 - Split the training set into 10 parts (folds)  
-- Train on 9 folds and validate on the 10th, rotating through all folds to reduce fluctuation in accuracy across different runs
+- Trained on 9 folds, validated on 1 (rotated)
+- Reduced accuracy fluctuation across runs
 
 ### Dropout Regularization  
 - Applied the Dropout technique to reduce overfitting on the training data  
