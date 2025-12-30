@@ -127,3 +127,7 @@ To further improve the model performance and reduce variability:
 ## Notes
 - The project focuses on reducing overfitting and improving stability through cross-validation and dropout.  
 - GridSearchCV helped in identifying a more optimized configuration of hyperparameters.
+- Future improvements could include:
+    - Feature engineering (interaction terms, scaling strategies)
+    - Ensemble methods (stacking ANN with tree-based models)
+    - Monitoring precision/recall alongside accuracy for imbalanced churn data
